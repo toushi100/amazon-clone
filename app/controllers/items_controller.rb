@@ -25,6 +25,8 @@ class ItemsController < ApplicationController
 
     respond_to do |format|
       if @item.save
+        ItemMailer.with(item: @item).item_mail(@item.id).deliver_now
+
         format.html { redirect_to item_url(@item), notice: "Item was successfully created." }
         format.json { render :show, status: :created, location: @item }
       else
