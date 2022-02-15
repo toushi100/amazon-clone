@@ -10,3 +10,11 @@ and an other email when a product is available on our platform
 ![This is an image](https://github.com/toushi100/amazon-clone/blob/development/screenshots/Screenshot%20from%202022-02-11%2018-37-58.png)
 ![This is an image](https://github.com/toushi100/amazon-clone/blob/development/screenshots/Screenshot%20from%202022-02-11%2018-38-06.png)
 ![This is an image](https://github.com/toushi100/amazon-clone/blob/development/screenshots/Screenshot%20from%202022-02-11%2018-38-16.png)
+
+
+
+
+
+![This is an image](https://github.com/toushi100/amazon-clone/blob/development/screenshots/Screenshot%20from%202022-02-15%2018-48-17.png)
+![This is an image](https://github.com/toushi100/amazon-clone/blob/development/screenshots/Screenshot%20from%202022-02-15%2018-48-27.png)
+![This is an image](https://github.com/toushi100/amazon-clone/blob/development/screenshots/Screenshot%20from%202022-02-15%2018-48-33.png)
