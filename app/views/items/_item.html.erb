@@ -1,0 +1,32 @@
+<div id="<%= dom_id item %>">
+  <p>
+    <strong>Title:</strong>
+    <%= item.title %>
+  </p>
+  <% if item.cover.representable?%> 
+<%= image_tag item.cover , style:"max-width:100%;"%>
+ <%= link_to 'Remove', delete_image_attachment_item_url(item.cover.id),
+                method: :delete %>
+<%end%>
+  <p>
+    <strong>Description:</strong>
+    <%= item.description %>
+  </p>
+<% for i in item.uploads %>
+ <%= link_to 'Remove', delete_image_attachment_item_url(i),
+                method: :delete %>
+<% if i.representable?%> 
+<%= image_tag i.representation(resize_to_limit: [100, 100]) %> 
+<% else %>
+<%= image_tag i , style:"max-width:350px;"%>
+
+<% end %>
+
+
+<%end%>
+  <p>
+    <strong>Price:</strong>
+    <%= item.price %>
+  </p>
+
+</div>
